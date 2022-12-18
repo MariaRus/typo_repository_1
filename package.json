@@ -1,0 +1,22 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script_1": "tsc test2.ts -t ES2015",
+    "script_2": "tsc test2.ts -removeComments",
+    "script_3": "tsc test2.ts -outDir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "final"
+  },
+  "author": "Maryia Rusinovich",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  }
+}
