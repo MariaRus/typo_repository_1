@@ -6,5 +6,5 @@ const family = [
     {member: "granny", name: "Galina", age: 76}
 ]
 
-console.log("MY FAMILY: ")
+console.log("MY FAMILY: ");
 console.table (family);
